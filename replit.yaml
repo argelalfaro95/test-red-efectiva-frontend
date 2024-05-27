@@ -1,0 +1,3 @@
+run:
+  language: node
+  command: npm start

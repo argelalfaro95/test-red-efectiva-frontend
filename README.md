@@ -1,7 +1,5 @@
 # TEST RED EFECTIVA - FRONT
 
- WebSite [Demo](https://github.com/facebook/create-react-app).
-
 ## Clonar el repositorio
     
     git clone
@@ -48,6 +46,3 @@
     ├── App.js
     ├── index.js
     ├── setupTests.js
-
-    
-

@@ -1,9 +1,8 @@
-# TEST RED EFECTIVA - FRONT
+# TEST RED EFECTIVA - FRONTEND
 
 ## Clonar el repositorio
     
     git clone
-    
 
 ## Instalar dependencias
 
@@ -18,6 +17,17 @@
 - React JS
 - React-Bootstrap
 - Fetch
+- Docker
+
+## Deploy con Docker (Opcional)
+
+### Crear Imágen Docker 
+
+    docker build -t test-red-efectiva-frontend .
+
+### Ejecutar Imágen Docker
+
+    docker run -p 3000:3000 test-red-efectiva-frontend:latest
 
 ## Estructura de carpetas
     

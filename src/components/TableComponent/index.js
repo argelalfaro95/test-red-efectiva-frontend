@@ -32,11 +32,11 @@ const TableComponent = () => {
       <Table striped bordered hover responsive >
         <thead>
           <tr>
-            <th>User ID</th>
-            <th>User</th>
-            <th>Name</th>
-            <th>Title</th>
-            <th>Body</th>
+            <th>ID</th>
+            <th>Usuario</th>
+            <th>Remitente</th>
+            <th>Asunto</th>
+            <th>Mensaje</th>
           </tr>
         </thead>
         <tbody>

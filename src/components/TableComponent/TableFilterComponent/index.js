@@ -63,7 +63,7 @@ const TableFilterComponent = ({ data, setData }) => {
       <Col>
         <Form.Control
           type="text"
-          placeholder="Search by text in body"
+          placeholder="Búsqueda de texto en el mensaje"
           onChange={handleFilterByTextBody}
         />
       </Col>
@@ -72,7 +72,7 @@ const TableFilterComponent = ({ data, setData }) => {
 
         <Dropdown>
           <Dropdown.Toggle variant="success" id="dropdown-basic">
-            Order by title  {textAscOrDesc ? ': '+textAscOrDesc : ''}
+            Ordenar por Título  {textAscOrDesc ? ': '+textAscOrDesc : ''}
           </Dropdown.Toggle>
           <Dropdown.Menu>
             <Dropdown.Item
@@ -111,7 +111,7 @@ const TableFilterComponent = ({ data, setData }) => {
             setTextAscOrDesc("")
           }}
         >
-          Clear Filters
+          Limpiar Filtros
         </Button>
       </div>
       </Col>

@@ -6,7 +6,7 @@ const FooterComponent = () => {
     return (
         <footer className="footer">
            <Container>
-                <span className="text-muted">© 2024 Test Red Efectiva - Argel Alberto Alfaro</span>
+                <span className="text-muted">© 2024 Red Efectiva - Argel Alfaro</span>
 
             </Container>
         </footer>
